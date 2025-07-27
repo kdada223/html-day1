@@ -1,0 +1,56 @@
+main {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: rgb(113, 179, 157);
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  width: 1000px;
+  height: 100px;
+}
+th,
+td {
+  text-align: center;
+}
+.textin {
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.textin:hover {
+  border: 1px solid silver;
+  box-shadow: none;
+}
+.textin:focus {
+  border: 1px solid silver;
+  box-shadow: none;
+}
+button {
+  width: 100px;
+  height: 120px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button:hover {
+  cursor: pointer;
+  border: 1px solid silver;
+}
+
+footer {
+  height: 40px;
+}
